@@ -1,0 +1,123 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 149029,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initializeTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 7163006426,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Try to login to https://app.plus500.com/ webpage",
+        "description": "",
+        "id": "login-profile;try-to-login-to-https://app.plus500.com/-webpage",
+        "after": [
+          {
+            "result": {
+              "duration": 112079,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3924647206,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in https://app.plus500.com/ webpage",
+            "match": {
+              "location": "LoginStepDefinitions.i_am_in_https_app_plus_com_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 501866146,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I press demo mode",
+            "match": {
+              "location": "LoginStepDefinitions.i_press_demo_mode()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 181128424,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter email aurimasjank@gmail.com and password cucumbertest",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aurimasjank@gmail.com",
+                  "offset": 14
+                },
+                {
+                  "val": "cucumbertest",
+                  "offset": 49
+                }
+              ],
+              "location": "LoginStepDefinitions.i_enter_email_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3154805320,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I press login button",
+            "match": {
+              "location": "LoginStepDefinitions.i_press_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 268810795,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I see trade page",
+            "match": {
+              "location": "LoginStepDefinitions.i_see_trade_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Profile",
+    "description": "",
+    "id": "login-profile",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

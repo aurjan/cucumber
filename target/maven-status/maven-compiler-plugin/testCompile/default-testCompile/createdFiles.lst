@@ -1,0 +1,3 @@
+stepdefs\LoginStepDefinitions.class
+stepdefs\ServiceHooks.class
+TestRunner.class

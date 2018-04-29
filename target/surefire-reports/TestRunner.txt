@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 2, Skipped: 4, Time elapsed: 2.571 sec <<< FAILURE!
+Given I am in https://app.plus500.com/ webpage(Scenario: Try to login to https://app.plus500.com/ webpage)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoSuchMethodError: com.google.gson.GsonBuilder.setLenient()Lcom/google/gson/GsonBuilder;
+	at org.openqa.selenium.json.Json.<clinit>(Json.java:47)
+	at org.openqa.selenium.logging.profiler.HttpProfilerLogEntry.constructMessage(HttpProfilerLogEntry.java:37)
+	at org.openqa.selenium.logging.profiler.HttpProfilerLogEntry.<init>(HttpProfilerLogEntry.java:29)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:135)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:209)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
+	at stepdefs.LoginStepDefinitions.i_am_in_https_app_plus_com_webpage(LoginStepDefinitions.java:22)
+	at ?.Given I am in https://app.plus500.com/ webpage(Login.feature:4)
+
+Scenario: Try to login to https://app.plus500.com/ webpage  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoSuchMethodError: com.google.gson.GsonBuilder.setLenient()Lcom/google/gson/GsonBuilder;
+	at org.openqa.selenium.json.Json.<clinit>(Json.java:47)
+	at org.openqa.selenium.logging.profiler.HttpProfilerLogEntry.constructMessage(HttpProfilerLogEntry.java:37)
+	at org.openqa.selenium.logging.profiler.HttpProfilerLogEntry.<init>(HttpProfilerLogEntry.java:29)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:135)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:209)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
+	at stepdefs.LoginStepDefinitions.i_am_in_https_app_plus_com_webpage(LoginStepDefinitions.java:22)
+	at ?.Given I am in https://app.plus500.com/ webpage(Login.feature:4)
+
